@@ -1,0 +1,25 @@
+package com;
+
+class App {
+	public static void main(String[] args) {
+		CalculatorLogic c=new CalculatorLogic();
+		
+		System.out.println("Starts");
+		System.out.println("***************");
+		c.massage();
+		
+		c.add(50, 54);
+		c.sub(10, 5);
+		int multiplication =c.mul();
+		int division=c.div();
+		int modulus=c.mod();
+		
+		System.out.println(multiplication);
+		System.out.println(division);
+		System.out.println(modulus);
+		System.out.println("***************");
+		System.out.println("Ends");
+		
+	}
+
+}

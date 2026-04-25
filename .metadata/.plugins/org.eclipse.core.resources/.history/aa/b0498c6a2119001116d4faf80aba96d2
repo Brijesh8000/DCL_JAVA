@@ -1,0 +1,37 @@
+package com;
+
+ class CalculatorLogic {
+	 
+	 public void massage() {
+		 System.out.println(" Welcome to The Calculator ");
+	 } //1. Method without args, without return Statements
+	 
+	 public void add(int a,int b) {
+		 int sum =a+b;
+		 System.out.println("Sum is : "+sum);
+		 
+	 }  //2. Method with args, without return Statements
+	 public void sub(int a,int b) {
+		 int subt=a-b;
+		 System.out.println("Subtractin is : "+subt);
+		 
+	 } //3. Method with args, without return Statements
+	 public int mul() {
+		 int mult=80*5;
+		 
+		 return mult;
+	 } //4. Method without args, with return Statements
+	 public int div() {
+          int  d=80/5;
+		 
+		  return d;
+		 
+		 
+	 } //5. Method with args, with return Statements
+	 public int mod() {
+		 
+		 int m=21%4;
+		 return m;
+		 
+	 } //6. Method without args, with return Statements
+ }

@@ -1,0 +1,22 @@
+
+package com;
+import java.util.Scanner;
+
+public class Demo2 {
+	public static void main(String[] args) {
+		double[] marks=new double[4];
+		
+//		marks[0]=91.1;
+//		marks[1]=95.9;
+//		marks[2]=99.5;
+//		marks[3]=92.8;
+		Scanner n=new Scanner(System.in);
+		
+		for(double v: marks) {
+			System.out.print("Enter the value : ");
+			v=n.nextDouble();
+			System.out.println(v);
+		}
+	}
+
+}

@@ -1,0 +1,9 @@
+package com;
+
+public class NameArray {
+  public static void main(String[] args) {
+	String[] name= {"Brijesh","Debu","Tanmay","Ranjit","Rohit","Vinay"};
+	for(String s:name) {
+		System.out.println(s);
+	}
+}
