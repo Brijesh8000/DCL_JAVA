@@ -2,7 +2,7 @@ package dcl;
 
 public class Actor {
 	
-	int age ;
+	int age;
 	String name;
 	String industry;
 	
